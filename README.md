@@ -1,4 +1,5 @@
-#1- to find the sum of 2 numbers (num1+num2)
+#1- 
+to find the sum of 2 numbers (num1+num2)
 
 class Solution:
     def sum(self, num1: int, num2: int) -> int:
@@ -7,7 +8,8 @@ class Solution:
 t.c: O(1)
 s.c: O(1)
 
-#2- to find whether the sum of left nd right nodes equals the parent node.. (only contains 3 nodes total)
+#2
+-to find whether the sum of left nd right nodes equals the parent node.. (only contains 3 nodes total)
 
 class Solution:
     def checkTree(self, root):
