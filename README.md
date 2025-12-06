@@ -9,7 +9,7 @@
 t.c: O(1);     
 s.c: O(1)
 
-# 2-to find whether the sum of left nd right nodes equals the parent node.. (only contains 3 nodes total)
+# 2- to find whether the sum of left nd right nodes equals the parent node.. (only contains 3 nodes total)
 
     class Solution:
 
@@ -61,7 +61,7 @@ t.c: O(n*m);
 s.c: O(1)
 
 
-# 5- to do the fizz, buzz, fizzbuzz game with multiples of 3, 5, nd 3&5(15) respectively
+# 5- to do the "fizz, buzz, fizzbuzz" game with multiples of 3, 5, nd 3&5(15) respectively
 
     class Solution:
 
