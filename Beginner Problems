@@ -63,7 +63,20 @@ class Solution:
 t.c= O(n)
 s.c= O(n)
 
-#6- 
+#6- Number of Steps to Reduce a Number to Zero
+
+class Solution:
+    def numberOfSteps(self, num: int) -> int:
+        steps=0
+        while num!=0:
+            steps+=1
+            if num&1:
+                num-=1
+            else:
+                num>>=1
+        return steps
+t.c: O(logn)
+s.c: O(1)
 
 #7-
 
