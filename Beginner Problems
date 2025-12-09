@@ -78,13 +78,40 @@ class Solution:
 t.c: O(logn)
 s.c: O(1)
 
-#7-
+#7- Middle of a linked list
+class Solution(object):                  # While "slow" moves one step forward, "fast" moves two steps forward.
+    def middleNode(self, head):          # Finally, when "fast" reaches the end, "slow" happens to be in the middle of the linked list.
+        slow = fast = head               # Shows that both "slow" and "fast" start at the same starting point, which is "head" here.
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow                      # We get the middle point and its following characters.
+
+t.c: O(n)
+s.c: O(1)
 
 #8-
 
 
 *t.c- time complexity
 *s.c- space complexity
+*Note:
+• num & 1 → check odd/even
+• num >> 1 → fast divide by 2
+• num << 1 → fast multiply by 2
+• XOR(^) Truth Table:- 0^0=0
+                       0^1=1
+                       1^0=1
+                       1^1=0
+• XOR code:- a=a^b 
+             b=a^b
+             a=a^b
+• (&) Truth Table:- 0^0=0
+                    0^1=0
+                    1^0=0
+                    1^1=1
+•
+
 
 practice sesh:
 #1:
